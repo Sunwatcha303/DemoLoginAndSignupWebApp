@@ -1,0 +1,12 @@
+View" toBeRendered="false" ref="_9qI_pZATEe2R6NrTS0JPvw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_9qHKbpATEe2R6NrTS0JPvw" elementId="org.eclipse.ui.views.TaskList" toBeRendered="false" ref="_9qI_ppATEe2R6NrTS0JPvw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_9qHKb5ATEe2R6NrTS0JPvw" elementId="org.eclipse.ui.console.ConsoleView" ref="_9qI_p5ATEe2R6NrTS0JPvw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+     

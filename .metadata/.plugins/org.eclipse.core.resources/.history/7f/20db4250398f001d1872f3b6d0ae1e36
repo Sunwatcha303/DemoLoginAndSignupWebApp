@@ -1,0 +1,4 @@
+@charset "UTF-8";
+.Login-form-form{
+	align : center;
+}

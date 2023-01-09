@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+F:\coding\JavaWebApp\domoLoginAndSignup\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+869521479.index
+1975016456.index
+3858723271.index
+4090942462.index
+113061977.index

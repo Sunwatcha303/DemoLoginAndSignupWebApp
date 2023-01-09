@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+console.log("test")
+function toggle(){
+	var is_visible = false;
+    var input = document.getElementByName("password");
+    
+    if(is_visible)
+    {
+        input.type = 'password';
+        is_visible = false; 
+    }
+    else
+    {
+        input.type = 'text';
+        is_visible = true;
+    }
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.login-body{
+	margin: auto;
+    max-width: 450px;
+}
+
+.login-form{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-box{
+	
+}

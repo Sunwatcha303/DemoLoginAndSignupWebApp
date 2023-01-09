@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+	font-family: system-ui;
+}
+.signup-body{
+	margin: auto;
+    max-width: 400px;
+}
+
+.signup-box{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.login-form{
+	
+}
+
+.signup-form-box{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.box-signup{
+	padding-bottom: 10px;
+	
+}
+
+.input{
+	min-width: 280px;
+    padding: 8px;
+    border-radius : 5px;
+}
+
+.button-box{
+	min-width: 300px;
+	background-color: gold;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+a{
+	font-weight: 500;
+    color: blue;
+    text-decoration: none;
+}
+

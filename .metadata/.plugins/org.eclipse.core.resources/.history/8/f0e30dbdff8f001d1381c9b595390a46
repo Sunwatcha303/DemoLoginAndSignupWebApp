@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+
+function show(){
+	var input = document.getElementById("password-input");
+	input.setAttribute('type', 'text');
+}
+
+function hide(){
+	var input = document.getElementById("password-input");
+	input.setAttribute('type', 'password');
+}
+
+var is_visible = false;
+var btn = document.getElementById("toggle-password");
+
+btn.addEventListener("click", function(){
+	
+    if(is_visible)
+    {
+        hide();
+        is_visible = false;
+        btn.innerHTML = "SHOW";
+    }
+    else
+    {
+        show();
+        is_visible = true;
+        btn.innerHTML = "HIDE";
+    }
+},false)
+
+var input = document.getElementById("password-input");
+input.addEventListener("input", function(){
+	input.setAttribute('value',document.getElementById("password-input").value);
+})
+

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+function toggle(){
+	var is_visible = false;
+    var input = document.getElementByName("password");
+    var show = document.getElementById("see");
+    
+    if(is_visible)
+    {
+        input.type = 'password';
+        is_visible = false; 
+        see.style.color='gray';
+    }
+    else
+    {
+        input.type = 'text';
+        is_visible = true; 
+        see.style.color='#262626';
+    }
+}

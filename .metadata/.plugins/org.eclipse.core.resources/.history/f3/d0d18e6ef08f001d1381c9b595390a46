@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+
+function show(){
+	var input = document.getElementById("password-input");
+	input.setAttribute('type', 'text');
+}
+
+function hide(){
+	var input = document.getElementById("password-input");
+	input.setAttribute('type', 'password');
+}
+
+document.getElementById("toggle-password").addEventListener("click", function(){
+	var is_visible = false;
+    
+    if(is_visible)
+    {
+        hide();
+        is_visible = false; 
+    }
+    else
+    {
+        input.type = 'text';
+        is_visible = true;
+    }
+})
